@@ -12,7 +12,7 @@ const AboutSection = () => {
 
           <div className="relative">
             <img
-              src="/about-1.png"
+              src={`${import.meta.env.BASE_URL}about-1.png`}
               alt="About Image"
               className="w-full h-full object-cover"
             />
@@ -23,7 +23,7 @@ const AboutSection = () => {
           {/* Right Image */}
           <div className="relative">
             <img
-              src="/about-2.png"
+              src={`${import.meta.env.BASE_URL}about-2.png`}
               alt="About Image"
               className="w-full h-full object-cover"
             />
@@ -32,7 +32,7 @@ const AboutSection = () => {
           <div className="flex items-start gap-2 p-4">
             <div className="w-full flex flex-col items-start gap-2">
               <img
-                src="/logo.svg"
+                src={`${import.meta.env.BASE_URL}logo.svg`}
                 alt="About Image"
                 className="h-15 object-cover"
               />

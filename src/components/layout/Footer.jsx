@@ -21,7 +21,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo.svg" alt="نقلتي" className="h-20" />
+              <img
+                src={`${import.meta.env.BASE_URL}logo.svg`}
+                alt="نقلتي"
+                className="h-20"
+              />
             </div>
             <p>نعتني بعفشك كأنه عفشنا</p>
           </div>

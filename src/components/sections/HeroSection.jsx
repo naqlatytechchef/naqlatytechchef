@@ -45,7 +45,7 @@ const HeroSection = () => {
 
           {/* Right Images */}
           <img
-            src="/hero.png"
+            src={`${import.meta.env.BASE_URL}hero.png`}
             alt="Hero Image"
             className="w-full h-full object-cover"
           />

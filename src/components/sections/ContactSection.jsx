@@ -54,7 +54,7 @@ const ContactSection = () => {
 
         <div className="w-full">
           <img
-            src="/contact.png"
+            src={`${import.meta.env.BASE_URL}contact.png`}
             alt="Contact Image"
             className="w-full h-full object-contain"
           />

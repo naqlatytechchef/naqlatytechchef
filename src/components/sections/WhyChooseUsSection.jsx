@@ -60,7 +60,7 @@ const WhyChooseUsSection = () => {
         {/* Image Section */}
         <div className="w-full">
           <img
-            src="/why-choose-us.png"
+            src={`${import.meta.env.BASE_URL}why-choose-us.png`}
             alt="Why Choose Us"
             className="w-full h-full object-contain"
           />

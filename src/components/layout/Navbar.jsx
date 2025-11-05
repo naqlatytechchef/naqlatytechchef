@@ -33,7 +33,11 @@ const Navbar = () => {
               }}
               className="text-gray-700 hover:text-primary transition-colors font-bold text-2xl"
             >
-              <img src="/logo.svg" alt="نقلتي" className="h-20" />
+              <img
+                src={`${import.meta.env.BASE_URL}logo.svg`}
+                alt="نقلتي"
+                className="h-20"
+              />
             </a>
           </div>
 
@@ -113,7 +117,11 @@ const Navbar = () => {
           <div className="fixed right-0 top-0 h-full w-full bg-white shadow-xl transform transition-transform">
             <div className="p-6">
               <div className="flex justify-between items-center mb-8">
-                <img src="/logo.svg" alt="نقلتي" className="h-20" />
+                <img
+                  src={`${import.meta.env.BASE_URL}logo.svg`}
+                  alt="نقلتي"
+                  className="h-20"
+                />
                 <button
                   onClick={() => setIsMenuOpen(false)}
                   className="text-gray-500 hover:text-gray-700"
