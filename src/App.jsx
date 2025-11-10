@@ -1,5 +1,6 @@
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import FloatingWhatsapp from "./components/layout/FloatingWhatsapp";
 import HeroSection from "./components/sections/HeroSection";
 import AboutSection from "./components/sections/AboutSection";
 import WhyChooseUsSection from "./components/sections/WhyChooseUsSection";
@@ -17,6 +18,7 @@ function App() {
         <ServicesSection />
         <ContactSection />
       </main>
+      <FloatingWhatsapp />
       <Footer />
     </div>
   );

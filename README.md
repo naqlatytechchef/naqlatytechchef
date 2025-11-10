@@ -1,6 +1,6 @@
-# نقلتكم - Naqlaty Moving Services
+# نقلتكم - Naqltkom Moving Services
 
-React single-page application for Naqlaty moving services in Kuwait.
+React single-page application for Naqltkom moving services in Kuwait.
 
 ## Setup
 

@@ -97,19 +97,19 @@ const Footer = () => {
             </div>
             <div className="flex gap-3 mt-6">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100077442968766"
                 className="w-10 h-10 rounded-full border border-secondary hover:bg-secondary flex items-center justify-center transition-colors"
               >
                 <FaFacebook className="text-white w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/naql_qw"
                 className="w-10 h-10 rounded-full border border-secondary hover:bg-secondary flex items-center justify-center transition-colors"
               >
                 <FaInstagram className="text-white w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://wa.me/96597897008"
                 className="w-10 h-10 rounded-full border border-secondary hover:bg-secondary flex items-center justify-center transition-colors"
               >
                 <FaWhatsapp className="text-white w-5 h-5" />
