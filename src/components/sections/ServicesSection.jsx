@@ -31,7 +31,7 @@ const ServicesSection = () => {
             <span className="text-secondary font-bold">بالك</span>
           </h2>
           <p className="text-subtitle text-xl max-w-3xl mx-auto leading-relaxed">
-            فريق نقلتي جاهز يخدمك في كل تفاصيل النقل - من أول تغليف العفش لحد
+            فريق نقلتكم جاهز يخدمك في كل تفاصيل النقل - من أول تغليف العفش لحد
             ترتيبه في مكانك الجديد
           </p>
         </div>

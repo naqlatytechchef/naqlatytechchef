@@ -1,11 +1,5 @@
 import { useState } from "react";
-import {
-  FaPhone,
-  FaMapMarkerAlt,
-  FaFacebook,
-  FaInstagram,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaPhone, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
@@ -31,12 +25,16 @@ const Navbar = () => {
                 e.preventDefault();
                 scrollToSection("home");
               }}
-              className="text-gray-700 hover:text-primary transition-colors font-bold text-2xl"
+              className="flex items-center justify-center gap-2 text-gray-700 hover:text-primary transition-colors font-bold text-2xl"
             >
+              <h2 className="text-2xl md:text-3xl font-bold">
+                <span className="text-secondary font-bold">نق</span>
+                <span className="text-primary font-bold">لتكم</span>
+              </h2>
               <img
                 src={`${import.meta.env.BASE_URL}logo.svg`}
-                alt="نقلتي"
-                className="h-20"
+                alt="نقلتكم"
+                className="h-15"
               />
             </a>
           </div>
@@ -119,7 +117,7 @@ const Navbar = () => {
               <div className="flex justify-between items-center mb-8">
                 <img
                   src={`${import.meta.env.BASE_URL}logo.svg`}
-                  alt="نقلتي"
+                  alt="نقلتكم"
                   className="h-20"
                 />
                 <button
@@ -141,32 +139,35 @@ const Navbar = () => {
                 </p>
 
                 {/* Contact Info */}
-                <div className="flex items-start gap-2 mt-6">
+                <a
+                  href="tel:+96597897008"
+                  className="flex items-start gap-2 mt-6"
+                >
                   <div className="w-15 h-15 bg-primary/10 rounded-full flex items-center justify-center">
                     <FaPhone className="text-primary w-6 h-6" />
                   </div>
                   <div className="flex flex-col items-start justify-center">
-                    <a
-                      href="tel:+96597897008"
-                      className="font-bold text-md text-black"
-                    >
+                    <span className="font-bold text-md text-black">
                       96597897008+
-                    </a>
+                    </span>
                     <p className="text-secondary text-md">اتصل بنا</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-start gap-2 mt-6">
+                <a
+                  href="https://wa.me/96597897008"
+                  className="flex items-start gap-2 mt-6"
+                >
                   <div className="w-15 h-15 bg-primary/10 rounded-full flex items-center justify-center">
-                    <FaMapMarkerAlt className="w-6 h-6 text-primary" />
+                    <FaWhatsapp className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-bold text-md text-black">
-                      15 شارع محمود رفعت, السالمية, الكويت
-                    </p>
-                    <p className="text-secondary text-md">العنوان</p>
+                    <span className="font-bold text-md text-black">
+                      96597897008+
+                    </span>
+                    <p className="text-secondary text-md">تواصل واتساب</p>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div className="flex gap-3 mt-6">

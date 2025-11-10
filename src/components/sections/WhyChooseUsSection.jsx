@@ -29,7 +29,7 @@ const WhyChooseUsSection = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               ليش تختار <span className="text-secondary font-bold">نق</span>
-              <span className="text-primary font-bold">لتي</span>؟
+              <span className="text-primary font-bold">لتكم</span>؟
             </h2>
             <p className="text-subtitle text-xl max-w-md mx-auto leading-relaxed">
               نحن نعرف إن النقل مش مجرد صناديق… ده ذكرياتك ومقتنياتك، وعشان كده

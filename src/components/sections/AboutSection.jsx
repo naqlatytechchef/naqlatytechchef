@@ -5,7 +5,7 @@ const AboutSection = () => {
         <div className="text-center md:text-right md:w-1/2 w-full mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">من نحن؟</h2>
           <p className="text-subtitle max-w-3xl mx-auto leading-relaxed">
-            نقلتي متخصصة في نقل العفش والتغليف في الكويت. نحن نقدم لك تجربة نقل
+            نقلتكم متخصصة في نقل العفش والتغليف في الكويت. نحن نقدم لك تجربة نقل
             سهلة وخالية من القلق مع فريق محترف وأدوات متطورة. فريقنا جاهز يخدمك
             في كل تفاصيل النقل - من أول تغليف العفش لحد ترتيبه في مكانك الجديد.
           </p>
@@ -37,7 +37,7 @@ const AboutSection = () => {
                 className="h-15 object-cover"
               />
               <div>
-                <p className="font-semibold">نقلتي موجودة منذ</p>
+                <p className="font-semibold">نقلتكم موجودة منذ</p>
                 <p className="text-2xl font-bold text-primary">2007</p>
               </div>
             </div>

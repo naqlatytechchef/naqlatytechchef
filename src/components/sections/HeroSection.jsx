@@ -15,12 +15,12 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="text-center lg:text-right">
             <p className="text-primary font-bold mb-4">
-              نقلتي… راحتك تبدأ من أول خطوة نقل
+              نقلتكم… راحتك تبدأ من أول خطوة نقل
             </p>
             <h1 className="text-3xl md:text-4xl  font-bold mb-6 leading-tight">
               تنقل بيتك؟ خليها سهلة مع{" "}
               <span className="text-secondary font-bold">نق</span>
-              <span className="text-primary font-bold">لتي</span>
+              <span className="text-primary font-bold">لتكم</span>
             </h1>
             <p className="text-subtitle mb-8 leading-relaxed">
               أفضل خدمة نقل عفش بالكويت - تغليف أمن نقل سريع، وفريق محترف يحافظ

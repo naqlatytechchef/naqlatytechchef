@@ -1,4 +1,4 @@
-# نقلتي - Naqlaty Moving Services
+# نقلتكم - Naqlaty Moving Services
 
 React single-page application for Naqlaty moving services in Kuwait.
 
@@ -25,19 +25,25 @@ npm run build
 ### Option 1: Using npm script (Recommended)
 
 1. **If your repo is NOT named `username.github.io`** (regular repo):
+
    - Update `vite.config.js` and set the base path to your repo name:
+
    ```js
-   const base = '/your-repo-name/'
+   const base = "/your-repo-name/";
    ```
+
    - Or set it via environment variable:
+
    ```bash
    VITE_BASE_PATH=/your-repo-name/ npm run build
    ```
 
 2. **If your repo IS named `username.github.io`** (root domain):
+
    - Keep the base path as `/` in `vite.config.js`
 
 3. Deploy:
+
    ```bash
    npm run deploy
    ```
