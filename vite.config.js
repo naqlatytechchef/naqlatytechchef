@@ -1,16 +1,19 @@
+/* eslint-disable no-undef */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// GitHub Pages Configuration
-// For regular repos: set to '/your-repo-name/'
-// For root domain (username.github.io): use '/'
-// You can also set via environment variable: VITE_BASE_PATH=/repo-name/ npm run build
-const REPO_NAME = "/naqlatytechchef/";
+// GitHub Pages / Custom Domain Configuration
+// Base should be '/' when using a custom domain (e.g., https://naqltkom.com)
+// Optionally override via environment variable VITE_BASE_PATH
+const basePath =
+  typeof process !== "undefined" && process.env.VITE_BASE_PATH
+    ? process.env.VITE_BASE_PATH
+    : "/";
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: REPO_NAME,
+  base: basePath,
   build: {
     outDir: "dist",
   },

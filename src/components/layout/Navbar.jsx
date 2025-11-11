@@ -178,7 +178,7 @@ const Navbar = () => {
                   <FaFacebook className="text-primary w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.instagram.com/naqltkom/"
+                  href="https://www.instagram.com/naql_qw/"
                   className="w-10 h-10 rounded-full border border-primary hover:bg-primary flex items-center justify-center transition-colors"
                 >
                   <FaInstagram className="text-primary w-5 h-5" />
